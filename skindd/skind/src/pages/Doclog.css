@@ -1,0 +1,111 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  background: #f5f5f5;
+  min-height: 100vh;
+  height:auto;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: rgb(225, 225, 225);
+  color: rgb(16, 17, 18);
+  border: 2px solid black;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+}
+.px-5 {
+  padding-right: 3rem !important;
+  padding-left: 3rem !important;
+  
+}
+.auth-container{
+  max-width: 500px;
+  width: 100%;
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  text-align: center; /* Centers inline elements like tabs */
+}
+
+.auth-tabs {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center; /* Centers the tabs */
+}
+
+.auth-tabs .nav-link {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the form fields */
+  width: 100%;
+}
+
+.form-section .form-group {
+  width: 100%;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.slot-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  margin-top: 2rem;
+}
+
+.slot-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.slot-list {
+  margin-top: 1.5rem;
+}
+
+.slot-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background: #f8f9fa;
+}
+
+.welcome-header {
+  background: #007bff;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.btn-custom {
+  min-width: 100px;
+}

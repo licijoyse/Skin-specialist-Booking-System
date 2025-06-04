@@ -1,0 +1,136 @@
+body {
+  height: 100vh;
+}
+
+/* General Modal Styling */
+.modal-content {
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
+  padding: 20px;
+}
+
+/* Modal Header */
+.modal-header {
+  border-bottom: none;
+  background: #f8f9fa;
+  padding: 15px 20px;
+  border-radius: 12px 12px 0 0;
+}
+
+.modal-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #333;
+}
+
+.btn-close {
+  font-size: 16px;
+}
+
+/* Modal Body Styling */
+.modal-body {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 0 0 12px 12px;
+  height: 100vh;
+}
+
+.modal-body label {
+  font-weight: 500;
+  margin-top: 10px;
+  display: block;
+  font-size: 14px;
+  color: #555;
+}
+
+.modal-body input,
+.modal-body select {
+  width: 100%;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ced4da;
+  transition: all 0.3s ease-in-out;
+}
+
+.modal-body input:focus,
+.modal-body select:focus {
+  border-color: #2d2e2d;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.8);
+  outline: none;
+}
+
+/* Booking Button Styling */
+#submitBtn {
+  background-color: #393b39;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 15px;
+  transition: background 0.3s ease-in-out;
+  width: 20%;
+  display: block;
+  margin: 15px auto; /* Centering the button */
+}
+
+#submitBtn:hover {
+  background-color: #151515;
+}
+
+.btnnav {
+  background-color: #393b39;
+}
+
+/* Modal Form Field Styling */
+.form-control {
+  height: 40px;
+  font-size: 14px;
+}
+
+/* Improve Select Dropdown */
+select.form-control {
+  cursor: pointer;
+  appearance: none;
+  background: #fff url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="%23333"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center;
+  background-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .chatbot2 {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal-body {
+    padding: 15px;
+  }
+
+  .modal-body label {
+    font-size: 13px;
+  }
+
+  .modal-body input,
+  .modal-body select {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  #submitBtn {
+    font-size: 14px;
+    padding: 10px;
+    width: 50%;
+  }
+
+  .chatbot2 {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.containery {
+  height: 100vh; /* Full height */
+}
